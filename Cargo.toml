@@ -1,0 +1,12 @@
+[package]
+name = "git_structured_log"
+version = "0.1.0"
+authors = ["Teddy Katz <teddy.katz@gmail.com>"]
+description = "Extract git data in bulk"
+repository = "https://github.com/not-an-aardvark/git-structured-log"
+license = "MIT"
+
+[dependencies]
+chrono = "0.4"
+git2 = "0.7"
+serde_json = "1.0"
